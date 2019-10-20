@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yeeseng.westerndeli">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/my_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.OrderHistoryActivity"></activity>
+        <activity android:name=".view.SettingsActivity" />
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MenuGenActivity"
+            android:label="@string/category_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ItemGenActivity"
+            android:label="@string/item_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SignInActivity"
+            android:label="@string/sign_in"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SignUpActivity"
+            android:label="@string/sign_up"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.OrderGenActivity"
+            android:label="@string/curorder"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.PlacePickerActivity"
+            android:label="@string/placepicker"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.FinalizeOrderActivity"
+            android:label="@string/finalize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category." />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".presenter.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <service
+            android:name=".presenter.NotificationIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" >
+        </service>
+    </application>
+
+</manifest>

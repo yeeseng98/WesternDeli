@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Western Deli</string>
+    <string name="title_mainMenu">Menu Utama</string>
+    <string name="title_curOrder">Perintah Semasa</string>
+    <string name="title_myProfile">Profile Saya</string>
+    <string name="title_category">Kategori</string>
+    <string name="category_name">name</string>
+    <string name="item_name">name</string>
+    <string name="sign_in">Masuk Log</string>
+    <string name="sign_up">Daftar</string>
+    <string name="logout">Log Keluar</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Kata laluan</string>
+    <string name="rpassword">Tulis semula kata laluan</string>
+    <string name="email">Alamat Emel</string>
+    <string name="phonenum">Nombor Telefon Malaysia</string>
+    <string name="back">Balik</string>
+    <string name="close">Tutup</string>
+    <string name="cancel">Batal</string>
+    <string name="confirm">Sahkan</string>
+    <string name="welcome">Selamat datang, </string>
+    <string name="footer_msg">Sahkan Order</string>
+    <string name="order_header">Jumlah Harga(Swipe Aku!)</string>
+    <string name="curorder">Perintah Semasa</string>
+    <string name="confirmdel">Sahkan untuk memadam?</string>
+    <string name="changeporc">Tukar Jumlah Bahagian</string>
+    <string name="placepicker">Pilih Lokasi Penghantaran</string>
+    <string name="access_token">pk.eyJ1IjoieWVlc2VuZyIsImEiOiJjanZ0ZTY4OWkwcmZyM3ltZmxzdTRhY3c4In0.gR8UIRrxaNZ6h2eyR-k3MQ</string>
+    <string name="move_map_instruction">Seret peta!</string>
+    <string name="user_location_permission_explanation">Kami akan memerlukan lokasi anda diaktifkan!</string>
+    <string name="user_location_permission_not_granted">Maaf, sila berikan kebenaran untuk meneruskan!</string>
+    <string name="location_picker_place_name_result"> Tempat: %1$s</string>
+    <string name="location_picker_dropped_marker_snippet_no_results">Tiada keputusan</string>
+    <string name="filter">Filter</string>
+    <string name="finalize">Muktamadkan Perintah</string>
+    <string name="orderHist">Sejarah Pesanan</string>
+    <string name="received">Saya telah menerima produk ini.</string>
+    <string name="settings">Tetapan</string>
+</resources>

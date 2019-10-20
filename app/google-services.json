@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "296595208196",
+    "firebase_url": "https://dimitridelivery.firebaseio.com",
+    "project_id": "dimitridelivery",
+    "storage_bucket": "dimitridelivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296595208196:android:6d316ceef4e53233",
+        "android_client_info": {
+          "package_name": "com.yeeseng.westerndeli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296595208196-evu3foq7klpk7jtve1j0cq0p3q3lthua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0JyiL81pK6pWj8W-ayTjzi2orP0ujt2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296595208196-evu3foq7klpk7jtve1j0cq0p3q3lthua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

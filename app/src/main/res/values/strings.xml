@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Western Deli</string>
+    <string name="title_mainMenu">Main Menu</string>
+    <string name="title_curOrder">Current Order</string>
+    <string name="title_myProfile">My Profile</string>
+    <string name="title_category">Category</string>
+    <string name="category_name">name</string>
+    <string name="item_name">name</string>
+    <string name="sign_in">Log In</string>
+    <string name="sign_up">Register</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rpassword">Re-type Password</string>
+    <string name="email">Email Address</string>
+    <string name="phonenum">Malaysian Phone Number</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="welcome">Welcome, </string>
+    <string name="footer_msg">Confirm Order</string>
+    <string name="order_header">Total Price(Swipe Me!)</string>
+    <string name="curorder">Current Order</string>
+    <string name="confirmdel">Confirm to delete?</string>
+    <string name="changeporc">Change Portion Amount</string>
+    <string name="placepicker">Pick Delivery Location</string>
+    <string name="access_token">pk.eyJ1IjoieWVlc2VuZyIsImEiOiJjanZ0ZTY4OWkwcmZyM3ltZmxzdTRhY3c4In0.gR8UIRrxaNZ6h2eyR-k3MQ</string>
+    <string name="move_map_instruction">Drag the map!</string>
+    <string name="user_location_permission_explanation">We would need your location please!</string>
+    <string name="user_location_permission_not_granted">Sorry, please provide permission to proceed!</string>
+    <string name="location_picker_place_name_result">Place name: %1$s</string>
+    <string name="location_picker_dropped_marker_snippet_no_results">No results</string>
+    <string name="filter">Filter</string>
+    <string name="finalize">Finalize Order</string>
+    <string name="orderHist">Order History</string>
+    <string name="received">I have received the product.</string>
+    <string name="settings">Settings</string>
+
+</resources>

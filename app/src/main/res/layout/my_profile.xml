@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/itemCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Total Portions" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/estimatedTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Total Price:" />
+
+    <TextView
+        android:id="@+id/estimatedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/receivedBt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Estimated Time:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/receivedBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/received"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/settingsBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@id/receivedBt"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/settings"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/orderHistoryBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/settingsBt"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/orderHist"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
